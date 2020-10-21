@@ -7,9 +7,7 @@ server.use(express.json());
 const PORT = 5000;
 
 
-server.get('/',(req,res) => {
-    res.json({})
-});
+
 
 
 
