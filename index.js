@@ -1,14 +1,6 @@
-const express = require('express');
-
-const server = express();
-
-server.use(express.json());
+const server = require('./api/server');
 
 const PORT = 5000;
-
-
-
-
 
 
 server.listen(PORT, () => {
