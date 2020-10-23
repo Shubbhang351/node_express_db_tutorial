@@ -13,5 +13,6 @@ module.exports = {
         conn.run("PRAGMA foregin_keys = ON", done);
       }
     }
-  }
+  },
+  production: {},
 };
